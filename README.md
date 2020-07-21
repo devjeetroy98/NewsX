@@ -15,7 +15,8 @@ the template for this project.
 ![Login](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/login.PNG)
 
 4. The Settings tab contain option for you, to logout or delete your account. You can even download a specified news as a pdf or can send the news to someone in their
-   Email inbox. (Kindly replace the devjeetroy.dr@gmail.com with your email and the password with your password!)
+   Email inbox. (Kindly replace the 'example@gmail.com' with your email and the 'Your_Password' with your password!) Remember to turn this on!
+   Link : https://www.google.com/settings/security/lesssecureapps
 
 ![Top of Dashboard](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/dash1.PNG)
 ![Bottom of Dashboard](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/dash2.PNG)
