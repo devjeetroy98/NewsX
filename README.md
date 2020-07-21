@@ -6,7 +6,17 @@ the template for this project.
    which comes with some nice text editors like VS Code, Atom etc. After doing so, type "npm install" to install all the dependencies into the environment. If any error
    occurs, you might need to install Node.js from https://nodejs.org/en/ and npm comes with it.
 2. After doing so, in the terminal, type "npm start" to start the server. Open your browser and go to http://localhost:3000/ . You will see this.
+
+![HomePage](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/homepage.PNG)
+
 3. From here, you can register yourself and then login to reach the dashboard to read he latest news.
+
+![Register](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/register.PNG)
+![Login](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/login.PNG)
+
 4. The Settings tab contain option for you, to logout or delete your account.
 
-Have Fun ;)
+![Top of Dashboard](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/dash1.PNG)
+![Bottom of Dashboard](https://github.com/devjeetroy98/NewsX/blob/master/snapshot/dash2.PNG)
+
+Feel free to play around with this project!
