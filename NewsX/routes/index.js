@@ -96,13 +96,13 @@ router.post('/mail/:id',(req,res,next)=>{
                 let mailTransporter = nodemailer.createTransport({ 
                     service: 'gmail', 
                     auth: { 
-                        user: 'devjeetroy.dr@gmail.com', 
-                        pass: 'DevjeetRoy@21'
+                        user: 'example@gmail.com', 
+                        pass: 'Your_Password'
                     } 
                 }); 
                   
                 let mailDetails = { 
-                    from: 'devjeetroy.dr@gmail.com', 
+                    from: 'example@gmail.com', 
                     to: `${email22}`, 
                     subject: 'Important news from NewsX exclusively for you!',
                     text: `${sendNewsTitle} \n\n${sendNewsDes} \n\n Time: ${publishTime} \n\nTo read more click here: ${sendNewsUrl}`
