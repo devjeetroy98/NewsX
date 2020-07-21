@@ -1,0 +1,195 @@
+.totalarea{
+  display:flex;
+}
+.newspanel{
+  text-align: center;
+  margin-top: 10px;
+}
+.newsbox{
+  height: auto;
+  width: 800px;
+  border: 1px solid #333;
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.bodybox{
+  display:flex;
+  float:left;
+}
+.bodybox img{
+  height: 100px;
+  width: 160px;
+}
+h3{
+  color:#333;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.description{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: gray;
+  padding-left: 10px;
+}
+.author{
+  text-align: right;
+  color:#333;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.showmore{
+  position: relative;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 20px;
+  width: 100%;
+  cursor: pointer;
+  font-style: none;
+  height: 25px;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding-bottom: 10px;;
+}
+.showmore a{
+  color:white;
+  font-weight: bold;
+  padding-top:2px;
+  padding-bottom:2px;
+  height: 25px;
+  width: 100%;
+  position: inherit;
+}
+.rightpanel{
+  width: 270px;
+  height: 750px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding-left: 10px;
+  padding-right:10px;
+  margin-top:10px;
+}
+.rightpanel a img{
+ margin-top: 10px;
+}
+.rightpanel p{
+  text-align: left;
+}
+footer{
+  padding-left: 20px;
+  padding-top: 20px;;
+  height: 250px;
+  width:100%;
+  background-color: #1C2833;
+  color: white;
+}
+.footline{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  word-spacing: 3px;;
+}
+.tiny{
+  font-size: 12px;
+}
+.genre{
+  word-spacing: 10px;;
+}
+.endbuttons form button{
+  float: left;
+  margin-bottom: 10px;
+  margin-right:5px;
+}
+.endbuttons button{
+  float: left;
+  margin-bottom: 10px;
+  margin-right:5px;
+}
+#miniform{
+  float: right;
+  /* display:none */
+}
+#miniform input{
+  height:35px;
+}
+@media only screen and (min-width: 450px) and (max-width: 800px) {
+  .newsbox{
+    height: auto;
+    width: 350px;
+    border: 1px solid #333;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+  }
+  .bodybox img{
+    height: 100px;
+    width: 120px;
+  }
+  h3{
+    color:#333;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size:20px;
+  }
+  .description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  .author{
+    text-align: right;
+    color:#333;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+  .showmore{
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-style: none;
+    height: 25px;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+  }
+  footer{
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;;
+    height: 320px;
+    width:100%;
+    background-color: #1C2833;
+    color: white;
+  }
+  .footline{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 2px;;
+  }
+  .tiny{
+    font-size: 10px;
+  }
+  .genre{
+    word-spacing: 8px;
+    font-size:15px;
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .formholder{
+      margin-top: 50px;
+      margin-left: 200px;
+      margin-right: 200px;
+      text-align: center;
+      align-self: center;
+  }
+}

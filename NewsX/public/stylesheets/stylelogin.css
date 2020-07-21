@@ -1,0 +1,41 @@
+.formholder{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    align-self: center;
+}
+form{
+text-align: left;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 649px) {
+    .formholder{
+        margin-top: 40px;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
+        align-self: center;
+    }
+}
+
+
+@media only screen and (min-width: 650px) and (max-width: 800px) {
+    .formholder{
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-right: 150px;
+        text-align: center;
+        align-self: center;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .formholder{
+        margin-top: 50px;
+        margin-left: 200px;
+        margin-right: 200px;
+        text-align: center;
+        align-self: center;
+    }
+}
