@@ -1,5 +1,5 @@
 # NewsX
-This is a news website  made using Node.js with Express.js and MongoDB. It ready data from an external news api and renders it on the browser. Here, we have used ejs as
+This is a news website  made using Node.js with Express.js and MongoDB. It reads data from an external news api and renders it on the browser. Here, we have used ejs as
 the template for this project.
 
 1. After you have cloned the git repository, open it using any text editor. Then open the Command Prompt and go to the directory NewsX. You may also use the terminal
