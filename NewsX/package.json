@@ -20,7 +20,7 @@
     "nodemailer": "^6.4.10",
     "pdf-puppeteer": "^1.1.10",
     "puppeteer": "^5.2.0",
-    "validator": "^13.1.1"
+    "validator": "^13.7.0"
   },
   "engines": {
     "node": "12.18.0"
